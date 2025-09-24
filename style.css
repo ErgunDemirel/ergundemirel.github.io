@@ -237,6 +237,7 @@ nav ul {
 
 .kontakt {
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .kontakt h1 {
@@ -254,15 +255,24 @@ nav ul {
 
 .kontakt i {
     font-size: 100px;
-    padding-left: 165px;
     padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    /* Remove padding-left */
 }
 
-i:hover {
-    color: black;
-    transition: 0.3s, smooth;
-    cursor: pointer;
+.kontakt a {
+    display: inline-block;
 }
+
+.kontakt img {
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
 
 @media screen and (min-width: 1025px) {
     .wrapper {
@@ -339,8 +349,12 @@ i:hover {
         padding-left: 0;
     }
 
-    .kontakt i {
-        font-size: 100px;
-        padding-left: 720px;
+    .kontakt img {
+        width: 90px;
+        display: block;
+        margin: 0px auto;
+        padding: 0px;
+        padding-top: 10px;
+        /* Remove padding-left */
     }
 }
