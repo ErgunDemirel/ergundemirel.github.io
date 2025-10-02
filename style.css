@@ -193,7 +193,7 @@ nav ul {
 
 .about-me img{
     width: 300px;
-    border-radius: 1000px;
+    border-radius: 200px;
     display: block;         /* Make image a block element */
     margin: 0 auto;
 }
@@ -263,13 +263,20 @@ nav ul {
 
 .kontakt a {
     display: inline-block;
+    padding-top: 30px;
 }
 
+
 .kontakt img {
-    width: 90px;
+    width: 70px;
     display: block;
     margin: 0 auto;
     padding: 0;
+}
+
+.linkedin img{
+    margin-left: 40px; /* Add some space between the icons */
+    width: 70px;
 }
 
 
@@ -355,6 +362,11 @@ nav ul {
         margin: 0px auto;
         padding: 0px;
         padding-top: 10px;
-        /* Remove padding-left */
+        /* Remove padding-left */ 
     }
+    .linkedin img{
+    margin-left: 40px; /* Add some space between the icons */
+    width: 8
+    90px;
+}
 }
