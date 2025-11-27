@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: darkred;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.575);
+    flex-grow: 0;
+    position: sticky; /* Change to fixed */
+    top: 0px;
+    background-color: darkred; /* Add this */
+    z-index: 100; /* Add this */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: black;
+    transition: 0.3s, smooth;
+}
+
+nav img {
+    width: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.wrapper {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 15px;
+}
+
+.wrapper .hallo-text {
+    font-family: 'Fira Code', monospace;
+    color: red;
+    font-weight: 500;
+    line-height: 400%;
+}
+
+.intro-text {
+    padding-top: 10px;
+    line-height: 120%;
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+.web {
+    opacity: 0.8;
+    font-weight: 900;
+}
+
+.name {
+    font-weight: 900;
+}
+
+.wrapper img {
+    display: none;
+}
+
+.about-button {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 14px 24px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.about-button:hover {
+    color: black;
+}
+
+.Projekte h1 {
+    padding-bottom: 80px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Projekte h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.film {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.film:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.Projekte p {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 900;
+
+}
+
+.Projekte {
+    padding-bottom: 300px;
+}
+
+.todo {
+    padding-bottom: 300px;
+}
+.todo img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.todo h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.todo img {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.todo p {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: left;
+    padding-left: 5px;
+    font-family: 900;
+    font-weight: 900;
+}
+
+.site h2 {
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.site img {
+    width: 90%;
+    padding-left: 0;        /* Remove left padding */
+    border: 1px solid black;
+    display: block;         /* Make image a block element */
+    margin: 0 auto;         /* Center horizontally */
+}
+
+.site img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+.site p {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: 900;
+}
+
+.site {
+    padding-bottom: 150px;
+    justify-content: center;
+}
+
+.about-me h1 {
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 50px;
+}
+
+.about-me img{
+    width: 300px;
+    border-radius: 200px;
+    display: block;         /* Make image a block element */
+    margin: 0 auto;
+}
+
+.about-me p {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 130%;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.k-button {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 14px 24px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    display: block;         /* Make button a block element */
+    margin-left: auto;      /* Center horizontally */
+    margin-right: auto;     /* Center horizontally */
+}
+
+.about-me a{
+    text-decoration: none;
+}
+
+.k-button:hover {
+    color: black;
+}
+
+.about-me {
+    padding-bottom: 150px;
+}
+
+.kontakt {
+    padding-bottom: 100px;
+    text-align: center;
+    color: black;
+}
+
+.kontakt h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+.kontakt p {
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 900;
+}
+
+.kontakt i {
+    font-size: 100px;
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    /* Remove padding-left */
+}
+
+.kontakt a {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+
+.kontakt img {
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.linkedin img{
+    margin-left: 40px; /* Add some space between the icons */
+    width: 70px;
+}
+
+
+
+@media screen and (min-width: 1025px) {
+    .wrapper {
+        padding-left: 300px;
+    }
+
+    .wrapper h1 {
+        font-size: 60px;
+    }
+
+    .intro-text {
+        font-size: 17px;
+        padding-right: 300px;
+   }
+
+    .about-button {
+        font-size: 20px;
+    }
+
+    .image-box img{
+        padding-right: 50px;
+        padding-top: 70px;
+        display: block;
+        width: 200px;
+        float: right;
+    }
+
+    .image-box img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .Projekte img {
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Projekte img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .Projekte p {
+        text-align: center;
+    }
+
+    .todo img {
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .todo img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .todo p {
+        text-align: center;
+    }
+
+    .site img {
+        width: 30%;
+    }
+
+    .site img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .site p {
+        text-align: center;
+    }
+
+    .about-me img {
+        width: 400px;
+    }
+
+    .about-me p {
+        text-align: center;
+        padding-left: 0;
+        font-size: 30px;
+    }
+    
+
+    .k-button {
+        font-size: 20px;
+    }
+
+    .kontakt p {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .kontakt img {
+        width: 90px;
+        display: block;
+        margin: 0px auto;
+        padding: 0px;
+        padding-top: 10px;
+        /* Remove padding-left */ 
+    }
+
+    .kontakt img:hover{
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .linkedin img{
+    margin-left: 40px; /* Add some space between the icons */
+    width: 8
+    90px;
+}
+
+nav{
+    height: 5rem;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav ul{
+    font-size: 1.4rem;
+
+}
+}
